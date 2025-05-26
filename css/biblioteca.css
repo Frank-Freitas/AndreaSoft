@@ -1,0 +1,34 @@
+.livros-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+.livros-grid li {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  text-align: center;
+}
+.livros-grid img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+#verMais {
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: block;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+#verMais:hover {
+  background-color: #0056b3;
+}
+

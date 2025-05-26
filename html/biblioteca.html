@@ -4,12 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SGTE - Sistema de Gerenciamento Escolar</title>
+  <title>Biblioteca</title>
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/biblioteca.css">
 </head>
 
 <body class="container">
+
   <aside class="sidebar">
     <div class="logo">
       <img src="../images/logo.png" alt="Logo">
@@ -25,21 +27,24 @@
       </ul>
     </nav>
   </aside>
-
-  <!-- Conteúdo principal -->
   <main class="main">
+    <section class="">
+      <h2>Biblioteca Virtual</h2>
 
-    <section class="dashboard">
-      <a href="cadastro.html" class="card"><i class="fas fa-user-graduate"></i> Cadastrar Aluno</a>
-      <a href="gerenciarTurmas.html" class="card"><i class="fas fa-user-graduate"></i>Fazer Matricula</a>
-      <a href="pagamento.html" class="card"><i class="fas fa-calendar"></i>Controle de Mensalidades</a>
-      <a href="rotinaAula.html" class="card"><i class="fas fa-coins"></i>Rotina de Aula</a>
-      <a href="biblioteca.html" class="card"><i class="fas fa-book"></i> Biblioteca</a>
-      <a href="transporte.html" class="card"><i class="fas fa-bus"></i> Transporte</a>
-      <a href="avisos.html" class="card"><i class="fas fa-bullhorn"></i> Quadro de Avisos</a>
-      <a href="definicoes.html" class="card"><i class="fas fa-cogs"></i> Definições</a>
+      <p>
+        Esta é uma lista de livros obtida pela API do Google, apenas para simular uma biblioteca. A leitura dos livros não está disponível nessa versão demo do sistema para evitar violação de direitos autorais.
+      </p>
+
+      <!--
+       Essa lista de livros, é uma api do google usada como exemplo paara a criação da biblioeca
+       virtual, essa biblioteca disponibiliza apenas informações do livro. Não contem o conteudo para leitura
+       No futuro iremos trocar por uma api completa com livros prontos para ler. 
+       -->
+      <ul id="ListaLivros" class="livros-grid"></ul>
+      <button id="verMais">Ver mais</button>
+    </section>
   </main>
-
+  <script src="../js/biblioteca.js"></script>
 </body>
 
 </html>
