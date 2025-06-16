@@ -2,7 +2,7 @@
 
 AndreaSoft é um protótipo de sistema web de gerenciamento escolar, desenvolvido como parte de um projeto acadêmico. O objetivo é simular funcionalidades básicas de uma plataforma administrativa para instituições de ensino.
 
-## 📚 Funcionalidades
+## Funcionalidades
 
 - Painel administrativo com navegação lateral
 - Listagem de alunos matriculados
@@ -11,14 +11,14 @@ AndreaSoft é um protótipo de sistema web de gerenciamento escolar, desenvolvid
 - Biblioteca virtual com integração à API do Google Books
 - Gerenciamento de transporte escolar
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
 - Integração com a [Google Books API](https://developers.google.com/books)
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 AndreaSoft/
@@ -52,7 +52,7 @@ AndreaSoft/
    └── planos.js
 ```
 
-## 🚀 Como Executar
+## Como Executar
 
 1. Clone o repositório:
    ```bash
@@ -66,15 +66,15 @@ AndreaSoft/
 
 3. Abra o arquivo `index.html` em seu navegador preferido.
 
-## ⚠️ Observações
+## Observações
 
-- O sistema é um protótipo e não possui funcionalidades de backend.
+- O sistema é um protótipo em desenvolvimento.
 - A biblioteca virtual utiliza a Google Books API apenas para simulação; os livros não estão disponíveis para leitura, respeitando os direitos autorais.
 
 ## 👨‍💻 Contribuidores
 
-- [Frank Freitas](https://github.com/Frank-Freitas)
 - [Thiago Cruz](https://github.com/thiagoac22)
+- [Frank Freitas](https://github.com/Frank-Freitas)
 
 ---
 
