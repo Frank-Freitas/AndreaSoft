@@ -6,7 +6,8 @@
 }
 
 /* Para evitar scroll duplo e garantir 100vh */
-html, body {
+html,
+body {
     height: 100%;
     overflow: hidden;
 }
@@ -31,9 +32,10 @@ body {
 
 /* Logo */
 .sidebar .logo img {
-    width: 140px;
+    width: 150px;
     margin-bottom: 40px;
     height: auto;
+    border-radius: 10px;
 }
 
 /* Menu de navegação */
@@ -68,7 +70,8 @@ body {
     padding: 30px;
     overflow-y: auto;
     box-sizing: border-box;
-    background-color: #fff; /* para destacar conteúdo */
+    background-color: #fff;
+    /* para destacar conteúdo */
 }
 
 /* Títulos */

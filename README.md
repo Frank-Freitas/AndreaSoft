@@ -78,4 +78,4 @@ AndreaSoft/
 
 ---
 
-Projeto acadêmico em desenvolvimento.
+Projeto em desenvolvimento.

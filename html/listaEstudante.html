@@ -19,7 +19,7 @@
                 <ul>
                     <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Painel Administrativo</a></li>
                     <li><a href="listaEstudante.html"><i class="fas fa-user-graduate"></i> Alunos Matriculados</a></li>
-                    <li><a href="professor.html"><i class="fas fa-chalkboard-teacher"></i>Professores</a></li>
+                    <li><a href="profCadastrados.html"><i class="fas fa-chalkboard-teacher"></i> Professores</a></li>
                     <li><a href="pagamento.html"><i class="fas fa-coins"></i> Pagamento</a></li>
                     <li><a href="biblioteca.html"><i class="fas fa-book"></i> Biblioteca</a></li>
                     <li><a href="transporte.html"><i class="fas fa-bus"></i> Transporte</a></li>
@@ -27,25 +27,23 @@
             </nav>
         </aside>
 
-    <main class="main">
-      <section>
-        <h2>Lista de Alunos <span>Matriculados</span></h2>
-        <table id="tabelaAlunos" class="tabela" align="center">
-          <thead>
-            <tr>
-              <th>Nome</th>
-              <th>Email</th>
-              <th>Telefone</th>
-              <th>Data de Nascimento</th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- alunos serão inseridos aqui via JS -->
-          </tbody>
-        </table>
-      </section>
-    </main>
-  </div>
+        <main class="content">
+  <h1>📚 Alunos Matriculados</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>CPF</th>
+        <th>Data de Nascimento</th>
+        <th>Curso</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaAlunos">
+      <!-- Dados serão inseridos via JavaScript -->
+    </tbody>
+  </table>
+</main>  
 
   <script src="../js/listaEstudante.js"></script>
 </body>

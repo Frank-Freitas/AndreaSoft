@@ -17,7 +17,7 @@
       <ul>
         <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Painel Administrativo</a></li>
         <li><a href="listaEstudante.html"><i class="fas fa-user-graduate"></i> Alunos Matriculados</a></li>
-        <li><a href="professor.html"><i class="fas fa-chalkboard-teacher"></i>Professores</a></li>
+        <li><a href="profCadastrados.html"><i class="fas fa-chalkboard-teacher"></i>Professores</a></li>
         <li><a href="pagamento.html"><i class="fas fa-coins"></i> Pagamento</a></li>
         <li><a href="biblioteca.html"><i class="fas fa-book"></i> Biblioteca</a></li>
         <li><a href="transporte.html"><i class="fas fa-bus"></i> Transporte</a></li>
@@ -25,9 +25,16 @@
     </nav>
   </aside>
 
+  <h1>Cadastrar Professor</h1>
+  <form id="professorForm">
+    <input type="text" id="nome" placeholder="Nome" required />
+    <input type="email" id="email" placeholder="E-mail" required />
+    <input type="text" id="disciplina" placeholder="Disciplina" required />
+    <button type="submit">Cadastrar</button>
+  </form>
 
+  <script src="../js/profCadatrados.js"></script>
 
-  </main>
 </body>
 
 </html>
